@@ -19,7 +19,7 @@ public class UserIO {
         int variable = sc.nextInt(); // This Line takes an integer from Console
 
         System.out.println("Integer You have Entered : " +  variable);
-
+      
         // use sc.next(DataType) for taking all datatypes of input in java except char and String
         
         sc.close();
