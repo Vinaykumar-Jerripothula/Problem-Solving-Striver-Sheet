@@ -17,28 +17,28 @@ public class ArrayListClass {
 
         
         // Add Element to ArrayList
-        // Add Element to ArrayList Using Index
-        // Get Element using Index
-        // Remove Element
-        // Clear ArrayList
-        // Add an Element at starting Position 
-        // Add an Element at Ending Position
-        // Check Element Found in ArrayList or Not
-        // Size of an ArrayList
-        // To Reverse a ArrayList
-        
         al.add(10);
+        // Add Element to ArrayList Using Index
         al.add(1, 20);
+        // Get Element using Index
         System.out.print(al.get(1) + " ");
+        // Remove Element
         al.remove(1);
         System.out.println(al);
+        // Add an Element at starting Position 
         al.addFirst(50);
+        // Add an Element at Ending Position
         al.addLast(100);
+        // Check Element Found in ArrayList or Not
         al.contains(10);
+        // Size of an ArrayList
         al.size();
+        // To Reverse a ArrayList
         Collections.reverse(al);
         System.out.println(al);
+        // Clear ArrayList
         al.clear();
+        
             
     }
 }
