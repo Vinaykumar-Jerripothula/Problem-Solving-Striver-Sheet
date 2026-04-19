@@ -1,4 +1,4 @@
-package Step3.Easy;
+
 import java.util.Scanner;
 
 public class SecondLargest {
